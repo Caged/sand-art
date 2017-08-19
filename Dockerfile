@@ -4,7 +4,10 @@ MAINTAINER @caged <justin@github.com>
 RUN touch /etc/inside-container
 # send SIGQUIT to stop container
 
-RUN apt-get update
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+      apt-transport-https \
+      git
 
 COPY . /src
 WORKDIR /src
