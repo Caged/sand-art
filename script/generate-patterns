@@ -1,0 +1,8 @@
+#!/bin/bash
+
+/usr/local/bin/sandworks grid \
+  --color-from-image src/170.png \
+  --save-every 10 \
+  --frame-prefix bz \
+  --out-dir output \
+  --exit-frame 10

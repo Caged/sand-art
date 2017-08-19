@@ -1,0 +1,2 @@
+numpy==1.13.1
+-e git+git://github.com/Caged/fast-sand-paint.git@non-write-transfer#egg=fast-sand-paint-0.1.0
