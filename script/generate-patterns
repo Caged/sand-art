@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export WIDTH=10
+export HEIGHT=10
+
 sandworks grid \
   --color-from-image src/170.png \
   --save-every 10 \
