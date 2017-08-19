@@ -5,7 +5,7 @@ export HEIGHT=10
 
 sandworks grid \
   --color-from-image src/170.png \
-  --save-every 10 \
+  --save-every 100 \
   --frame-prefix bz \
   --out-dir output \
   --exit-frame 10
