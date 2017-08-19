@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/usr/local/bin/sandworks grid \
+sandworks grid \
   --color-from-image src/170.png \
   --save-every 10 \
   --frame-prefix bz \
