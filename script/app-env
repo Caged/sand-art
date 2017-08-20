@@ -9,4 +9,4 @@ appdir=$(cd $(dirname "$0")/.. && pwd)
 cmd="$@"; [ "$#" -eq 0 ] && cmd=bash
 image=${DOCKER_IMAGE:=sand-art}
 
-exec docker run -i -t -v "$appdir:/output" -v "$appdir:/src" $image $cmd
+exec docker run -i -t -v "$appdir:/script" -v "$appdir:/output" -v "$appdir:/src" $image $cmd
