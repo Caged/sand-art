@@ -4,8 +4,6 @@ MAINTAINER @caged <justin@github.com>
 RUN touch /etc/inside-container
 # send SIGQUIT to stop container
 
-ENV PYTHONPATH=/usr/local/lib/python3.5/site-packages/sandworks:$PYTHONPATH
-
 RUN apt-get update
 
 RUN pip install --no-cache-dir --upgrade pip
